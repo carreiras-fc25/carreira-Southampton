@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOLFSBURG - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .intro {
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro h2 {
+            color: #007A33; /* Cor do Wolfsburg */
+        }
+
+        .intro p {
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .feature {
+            background-color: #e9ecef;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            flex: 1 1 30%; /* Flexível, ocupa 30% do espaço */
+            min-width: 250px; /* Largura mínima */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h3 {
+            color: #007A33; /* Cor do Wolfsburg */
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="historico.html">História do Clube</a></li>
+            <li><a href="ultimos-jogos.html">Últimos Jogos</a></li>
+            <li><a href="tabela.html">Tabela da Bundesliga</a></li>
+            <li><a href="artilharia.html">Artilharia do Time</a></li>
+            <li><a href="objetivos.html">Objetivos do clube</a></li>
+            <li><a href="titulos.html">Títulos Wolfsburg</a></li>
+            <li><a href="transferencias.html">Histórico de Transferências</a></li>
+            <li><a href="contratos.html">Contratos com Jogadores</a></li>
+            <li><a href="verba.html">Atual Verba de Transferências</a></li>
+        </ul>
+    </div>
+    <a href="https://chat.whatsapp.com/HgvnG3mMkZMLoVRaH7zg9J" target="_blank" class="whatsapp-button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+    </a>
+    <button class="btn-toggle" id="toggleSidebar">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </button>
+    <div class="container">
+        <div class="intro">
+            <h2>
+<img src="https://ssl.gstatic.com/onebox/media/sports/logos/nCdwmPlnAA041M4HDMzmkg_64x64.png" alt="Logo do Wolfsburg">
+Bem-vindo ao Site do Wolfsburg!</h2>
+            <p>Explore tudo sobre o nosso clube, suas conquistas e muito mais!</p>
+            <div class="features">
+                <div class="feature">
+                     <h3>História do Clube</h3>
+                    <p>Descubra a rica história do VfL Wolfsburg e suas origens.</p>
+                </div>
+                <div class="feature">
+                    <h3>Últimos Jogos</h3>
+                    <p>Fique por dentro dos últimos jogos e resultados do time.</p>
+                </div>
+                <div class="feature">
+                    <h3>Tabela da Bundesliga</h3>
+                    <p>Veja a classificação atual da Bundesliga e a posição do Wolfsburg.</p>
+                </div>
+                <div class="feature">
+                    <h3>Artilharia do Time</h3>
+                    <p>Conheça os principais artilheiros do Wolfsburg na temporada.</p>
+                </div>
+                <div class="feature">
+                    <h3>Títulos</h3>
+                    <p>Reviva os momentos de glória do Wolfsburg com seus títulos.</p>
+                </div>
+                <div class="feature">
+                    <h3>Transferências</h3>
+                    <p>Fique atualizado sobre as transferências e movimentações do elenco.</p>
+                </div>
+                <div class="feature">
+                    <h3>Contratos</h3>
+                    <p>Fique por dentro de contratos de jogadores do clube.</p>
+                </div>
+                <div class="feature">
+                    <h3>Objetivos</h3>
+                    <p>Tenha acesso aos objetivos do clube na temporada.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('toggleSidebar').addEventListener('click', function() {
+            const sidebar = document.getElementById('sidebar');
+            if (sidebar.style.left === '0px') {
+                sidebar.style.left = '-250px'; // Esconde o menu
+            } else {
+                sidebar.style.left = '0px'; // Mostra o menu
+            }
+        });
+    </script>
+</body>
+</html>
