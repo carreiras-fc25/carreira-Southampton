@@ -23,6 +23,23 @@ body {
     width: 30px; /* Ajuste o tamanho do ícone */
     height: 30px; /* Ajuste o tamanho do ícone */
 }
+.wolfsburg-button {
+    position: fixed; /* Flutuante */
+    top: 100px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    background-color: #D71920; /* Cor de fundo */
+    border-radius: 5px;
+    padding: 10px; /* Espaçamento interno */
+    transition: background-color 0.3s;
+    z-index: 1000; /* Para garantir que o botão fique acima de outros elementos */
+}
+.wolfsburg-button:hover {
+    background-color: #DF0101; /* Cor mais escura ao passar o mouse */
+}
+.wolfsburg-icon {
+    width: 30px; /* Ajuste o tamanho do ícone */
+    height: 30px; /* Ajuste o tamanho do ícone */
+}
 .container {
     max-width: 800px;
     margin: auto;
