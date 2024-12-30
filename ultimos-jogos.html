@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WOLFSBURG - Últimos Jogos</title>
+    <title>Southampton - Últimos Jogos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,13 +12,8 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="historico.html">História do Clube</a></li>
-            <li><a href="tabela.html">Tabela da Bundesliga</a></li>
-            <li><a href="artilharia.html">Artilharia do Time</a></li>
             <li><a href="objetivos.html">Objetivos do clube</a></li>
-            <li><a href="titulos.html">Títulos Wolfsburg</a></li>
-            <li><a href="transferencias.html">Histórico de Transferências</a></li>
-            <li><a href="contratos.html">Contratos com Jogadores</a></li>
-            <li><a href="verba.html">Atual Verba de Transferências</a></li>
+            <li><a href="titulos.html">Títulos Southampton</a></li>
         </ul>
     </div>
     <a href="https://chat.whatsapp.com/HgvnG3mMkZMLoVRaH7zg9J" target="_blank" class="whatsapp-button">
@@ -45,11 +40,11 @@
 
         // Adicione os jogos aqui com placar
         const games = [
-            { team1: { name: "Wolfsburg", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/nCdwmPlnAA041M4HDMzmkg_64x64.png" }, team2: { name: "Stuttgart", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/Qc_eb6-lZEDR8ojQmZxFhQ_64x64.png" }, score: "1 - 0" },
-            { team1: { name: "Wolfsburg", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/nCdwmPlnAA041M4HDMzmkg_64x64.png" }, team2: { name: "Bayer Leverkusen", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/0zIcXiwD_JGY482DFC28Lw_64x64.png" }, score: "2 - 1" },
-            { team1: { name: "Wolfsburg", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/nCdwmPlnAA041M4HDMzmkg_64x64.png" }, team2: { name: "Frankfurt", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/VOizBJPDHnvnSaU3XPVGAw_64x64.png" }, score: "6 - 2" },
-            { team1: { name: "Wolfsburg", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/nCdwmPlnAA041M4HDMzmkg_64x64.png" }, team2: { name: "Holstein Kiel", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/9NJC7z1ReBNUIdqTTywvCw_64x64.png" }, score: "2 - 2" },
-            { team1: { name: "Wolfsburg", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/nCdwmPlnAA041M4HDMzmkg_64x64.png" }, team2: { name: "Bayer München", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/-_cmntP5q_pHL7g5LfkRiw_64x64.png" }, score: "1 - 2" }
+            { team1: { name: "Southampton", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/y1V4sm2SEBiWUPRIYl5rfg_64x64.png" }, team2: { name: "Manchester United", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_64x64.png" }, score: "1 - 2" },
+            { team1: { name: "Southampton", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/y1V4sm2SEBiWUPRIYl5rfg_64x64.png" }, team2: { name: "Swansea City", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/45heVhzL3HvaZW3e2B94kg_64x64.png" }, score: "1 - 0" },
+            { team1: { name: "Southampton", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/y1V4sm2SEBiWUPRIYl5rfg_64x64.png" }, team2: { name: "New Casttle United", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/96CcNNQ0AYDAbssP0V9LuQ_64x64.png" }, score: "1 - 1" },
+            { team1: { name: "Southampton", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/y1V4sm2SEBiWUPRIYl5rfg_64x64.png" }, team2: { name: "Brentford", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/QOUce0WQBYqnkSmN6_TxGA_64x64.png" }, score: "2 - 0" },
+            { team1: { name: "Southampton", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/y1V4sm2SEBiWUPRIYl5rfg_64x64.png" }, team2: { name: "Crystal Palace", logo: "https://ssl.gstatic.com/onebox/media/sports/logos/8piQOzndGmApKYTcvyN9vA_64x64.png" }, score: "1 - 0" }
         ];
 
         function renderGames() {
