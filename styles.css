@@ -153,8 +153,8 @@ li.dark-mode {
     left: -250px; /* Escondido inicialmente */
     width: 250px;
     height: 100%;
-    background-color: #D71920; /* Cor do fundo do menu */
-    color: black; /* Cor da fonte do menu */
+    background-color: #D71920; /* Cor de fundo desejada */
+    color: white; /* Cor do texto */
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
     transition: left 0.3s ease; /* Transição suave */
