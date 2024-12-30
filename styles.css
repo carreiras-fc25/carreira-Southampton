@@ -23,7 +23,7 @@ body {
     width: 30px; /* Ajuste o tamanho do ícone */
     height: 30px; /* Ajuste o tamanho do ícone */
 }
-..wolfsburg-button {
+.wolfsburg-button {
     position: fixed; /* Flutuante */
     top: 80px; /* Distância do topo, ajustado para ficar abaixo do WhatsApp */
     right: 20px; /* Distância da direita */
